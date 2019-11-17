@@ -36,7 +36,7 @@ end
 
 def add_s(array)
   array.collect do |n|
-    if array[1] == array[1]
+    if array[1] == n
       n
     else n + "s"
   end
