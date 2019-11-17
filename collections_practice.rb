@@ -33,3 +33,7 @@ def sum_array(array)
   array.inject(0){|sum,num| sum + num}
   #array.sum 
 end
+
+def add_s(array)
+  array.each_with_index.collect{|n,i| n
+end
