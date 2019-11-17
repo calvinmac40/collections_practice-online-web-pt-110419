@@ -38,7 +38,7 @@ def add_s(array)
   array.collect do |n|
     if array[1] == array[1]
       n
-    else n << "s"
+    else n + "s"
   end
 end
 end
