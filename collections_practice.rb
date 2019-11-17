@@ -35,5 +35,7 @@ def sum_array(array)
 end
 
 def add_s(array)
- array.each{|n| n << "s"}
+  if array.length == array[1]
+    
+ array n << "s"
 end
